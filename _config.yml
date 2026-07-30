@@ -108,3 +108,9 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+theme_config:
+  menu:
+    Home: /
+    Archives: /archives
+    关于我: /about
