@@ -8,13 +8,18 @@ subtitle: ''
 description: ''
 keywords:
 author: yyandy
-language: cn
+language: zh-CN
 timezone: ''
 mathjax:
   tags: none
   single_dollars: true
   every_page: true
   packages: ['base', 'ams', 'boldsymbol']
+feed:
+  enable: true
+  type: atom          # 生成 atom.xml 文件
+  path: atom.xml      # 文件的输出路径
+  limit: 20   
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://yuyaoandy.github.io
@@ -38,7 +43,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
@@ -110,8 +115,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-theme_config:
-  menu:
-    Home: /
-    Archives: /archives
-    关于我: /about
+encrypt:
+  enable: true
+  message: '此内容被加密，请输入访问密码。'
+  default_abstract: '这是一篇加密文章，请输入密码后阅读。'
+  default_message: '请输入密码'

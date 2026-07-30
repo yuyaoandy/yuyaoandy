@@ -1,0 +1,4 @@
+---
+title: catagories
+date: 2026-07-30 22:02:51
+---
