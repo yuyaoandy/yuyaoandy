@@ -11,9 +11,10 @@ author: yyandy
 language: cn
 timezone: ''
 mathjax:
+  tags: none
   single_dollars: true
   every_page: true
-  packages: ['base', 'ams', 'boldsymbol', 'color', 'extpfeil']
+  packages: ['base', 'ams', 'boldsymbol']
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://yuyaoandy.github.io
@@ -109,7 +110,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
 theme_config:
   menu:
     Home: /
