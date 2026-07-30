@@ -13,6 +13,7 @@ timezone: ''
 mathjax:
   single_dollars: true
   every_page: true
+  packages: ['base', 'ams', 'boldsymbol', 'color', 'extpfeil']
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://yuyaoandy.github.io
